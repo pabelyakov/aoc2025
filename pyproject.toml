@@ -1,0 +1,22 @@
+[project]
+name = "aoc2025"
+version = "0.1.0"
+description = "Solutions for Advent of Code 2025 on Python"
+authors = [
+    {name = "Petr Belyakov",email = "i@pabelyakov.ru"}
+]
+license = {text = "WTFPL"}
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.1,<10.0.0)"
+]
