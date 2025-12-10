@@ -1,0 +1,28 @@
+[project]
+name = "aoc2025"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Petr Belyakov",email = "pabelyak@mts.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    
+]
+
+[tool.poetry]
+packages = [{include = "aoc2025", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.2,<10.0.0)"
+]
+
+[tool.poetry.scripts]
+all = "src.aoc2025.all:main"
+day01 = "src.aoc2025.days.day01:main"

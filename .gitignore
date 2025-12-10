@@ -1,20 +1,6 @@
-# Python
-__pycache__
-*.py[cod]
-*~
-.env
-.venv
-.DS_Store
-.vscode
-.idea
-.pytest_cache
-
-# Poetry
-poetry.lock
-
-# Build
-dist
-build
-
-# Resources
-resources/
+__pycache__/
+dist/
+*.pyc
+*.pyo
+*.pyd
+*.log

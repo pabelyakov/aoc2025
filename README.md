@@ -6,12 +6,17 @@ Solutions for [Advent of Code 2025](https://adventofcode.com/2025) on Python
 
 # quick start
 
-## Prepare:
+## Prepare
 
-- `poetry install --no-root`
-- `poetry run pytest`
+### install dependencies
+`poetry install`
 
-## Run:
+### run tests
+`poetry run pytest`
 
-- `pnpm start` for all days
-- `pnpm start day${number}`: `pnpm start day01`, `pnpm start day02`, etc for certain day
+### run day
+#### run all days
+`poetry run python ./src/aoc2025/main.py`
+
+### run day
+`poetry run python ./src/aoc2025/days/day01.py`
