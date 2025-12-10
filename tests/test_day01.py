@@ -10,4 +10,4 @@ def test_part_one():
 
 def test_part_two():
     result = part02(get_input()) 
-    assert result == 2, f"Ожидалось 2, получено {result}"
+    assert result == 0, f"Ожидалось 0, получено {result}"

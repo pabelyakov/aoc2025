@@ -26,8 +26,9 @@ def part01(input: str) -> int:
 
     return zero_point_count;
 
+# TODO
 def part02(input: str) -> int:
-    return 2;
+   return 0;
 
 def main():
     input = input_util.read_input(DAY_NUMBER, "prod")
