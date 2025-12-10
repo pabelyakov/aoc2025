@@ -5,7 +5,9 @@ def get_input():
     return input_util.read_input("01", "dev")
 
 def test_part_one():
-    assert part01(get_input()) == 1, f"Ожидалось 42, получено {result}"
+    result = part01(get_input()) 
+    assert result == 3, f"Ожидалось 3, получено {result}"
 
 def test_part_two():
-    assert part02(get_input()) == 2, f"Ожидалось 100, получено {result}"
+    result = part02(get_input()) 
+    assert result == 2, f"Ожидалось 2, получено {result}"
